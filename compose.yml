@@ -1,0 +1,10 @@
+services:
+  php:
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - ./videos:/var/www/videos:rw
+      - files:/var/www/formation-back:ro
+volumes:
+  files:

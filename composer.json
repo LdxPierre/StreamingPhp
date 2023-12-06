@@ -1,0 +1,18 @@
+{
+    "name": "metarom/streaming-vod",
+    "description": "Internal VOD platform",
+    "autoload": {
+        "psr-4": {
+            "Metarom\\StreamingVod\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pierre Ledoux",
+            "email": "Pierre.LEDOUX@metarom.fr"
+        }
+    ],
+    "require": {
+        "php-ffmpeg/php-ffmpeg": "^1.1"
+    }
+}
